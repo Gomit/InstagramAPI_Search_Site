@@ -25,21 +25,10 @@
 
 	</head>
 	<body>
+		<h1 id="header">#SPHnostalgi</h1>
 		<div ng-controller = 'todoController'>
 		  <form name='rfm' ng-submit='addTodo()'>
-		  <input type='text' id="search" name='newtodo' ng-model='newtodo' placeholder="Enter string..." autofocus required />
-
-		  <button ng-disabled='frm.$invalid' ng-click="searchTag()" ng-enter="search" id="submit" value="Submit">Update</button>
-		  
-		  <button ng-click='clearCompleted()'>Clear search</button>
-		  
-		  <ul>
-			<!--<li ng-repeat="todo in todos">
-			<span ng-class='{"done":todo.done}'>{{todo.title}}</span> 
-			</li>-->
-		  </ul>
-		  	<div class="row">
-			  <div class="col-xs-6 col-md-4" id='instafeed'></div>
+		  	<div id='instafeed'>
 			</div>
 		 <!-- <div id='instafeed'></div> -->
 		</div>
