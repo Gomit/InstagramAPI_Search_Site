@@ -23,7 +23,7 @@
                 clientId: '3d04fe8482234785a7f777522d578f39',
 //                target: 'instafeed',
                 sortBy: 'most-recent',
-                limit: 3,
+                limit: 6,
                 
       }).run();
   };
