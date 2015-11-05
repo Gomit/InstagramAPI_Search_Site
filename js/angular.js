@@ -29,7 +29,7 @@
   };
 
   
-  loadInstagram("Awesome");
+  loadInstagram("Unicorn");
 
 
   function clearFeed(){
