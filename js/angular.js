@@ -29,7 +29,7 @@
   };
 
   
-  loadInstagram("Boring");
+  loadInstagram("Awesome");
 
 
   function clearFeed(){
